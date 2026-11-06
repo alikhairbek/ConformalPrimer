@@ -1,0 +1,10 @@
+# Needed to run the notebooks locally (on Colab and Kaggle everything but RDKit is preinstalled,
+# and the first cell of each notebook installs RDKit). Tested with the sets of versions listed in
+# README.md; the lower bounds below are the oldest versions tested.
+numpy>=1.26
+pandas>=2.2
+scipy>=1.11
+scikit-learn>=1.2
+matplotlib>=3.7
+rdkit>=2023.9.6
+jupyterlab>=4

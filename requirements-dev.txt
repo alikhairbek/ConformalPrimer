@@ -1,0 +1,7 @@
+# Needed in addition to requirements.txt to rebuild and execute the notebooks from the command line
+# (build_notebooks.py, run_all.py) and to run the tests with pytest.
+-r requirements.txt
+nbformat>=5.7
+nbclient>=0.7
+ipykernel>=6
+pytest>=7

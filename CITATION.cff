@@ -1,0 +1,62 @@
+cff-version: 1.2.0
+message: >-
+  If you use these notebooks or the toolbox, please cite this repository. A Tutorial article
+  describing them is in preparation; this file will be updated when it appears. If you use the
+  data, please also cite the RDB7 data set listed under "references".
+title: "ConformalPrimer: hands-on notebooks on conformal prediction for physical chemists"
+type: software
+authors:
+  - family-names: Khairbek
+    given-names: "Ali A."
+    orcid: "https://orcid.org/0000-0002-0477-5896"
+    affiliation: >-
+      Department of Mechanical Engineering, University Centre for Research & Development,
+      Chandigarh University, Gharuan, Mohali, Punjab, India
+version: "0.3.0"
+date-released: "2026-10-13"
+license: MIT
+repository-code: "https://github.com/alikhairbek/ConformalPrimer"
+abstract: >-
+  Six self-contained Jupyter notebooks that derive conformal prediction step by step in NumPy on a
+  public data set of reaction barrier heights (RDB7): split conformal prediction and the
+  distribution of its coverage, CV+ and jackknife+, normalized scores and conformalized quantile
+  regression, Mondrian calibration, behavior under distribution shift with weighted conformal
+  prediction and recalibration, and selection with a guaranteed false discovery rate.
+keywords:
+  - conformal prediction
+  - uncertainty quantification
+  - prediction intervals
+  - reaction barrier heights
+  - machine learning
+  - false discovery rate
+  - physical chemistry
+references:
+  - type: article
+    title: "High Accuracy Barrier Heights, Enthalpies, and Rate Coefficients for Chemical Reactions"
+    authors:
+      - family-names: Spiekermann
+        given-names: "Kevin A."
+      - family-names: Pattanaik
+        given-names: Lagnajit
+      - family-names: Green
+        given-names: "William H."
+    journal: "Scientific Data"
+    year: 2022
+    volume: 9
+    start: 417
+    doi: "10.1038/s41597-022-01529-6"
+  - type: data
+    title: "High Accuracy Barrier Heights, Enthalpies, and Rate Coefficients for Chemical Reactions"
+    version: "1.0.1"
+    authors:
+      - family-names: Spiekermann
+        given-names: Kevin
+      - family-names: Pattanaik
+        given-names: Lagnajit
+      - family-names: Green
+        given-names: "William H."
+    year: 2022
+    publisher:
+      name: Zenodo
+    doi: "10.5281/zenodo.6618262"
+    license: CC-BY-4.0
